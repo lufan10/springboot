@@ -2,19 +2,6 @@ server:
   port: 80 #指定访问端口
 
 spring:
-  mail:
-    host: smtp.qq.com
-    username: dijia4220@qq.com
-    password: fxqjrskeqpeyfcdd
-  #  cache:
-##    type: ehcache # 可以变更缓存技术，springboot默认缓存技术是simple
-#    type: redis # 可以变更缓存技术，springboot默认缓存技术是simple
-#  redis: # redis数据源
-#    host: localhost
-#    port: 6379
-#    password: root
-#    client-type: jedis
-
   datasource: #数据源连接参数
     druid:
       # mysql数据源
@@ -22,46 +9,24 @@ spring:
       url: jdbc:mysql://localhost:3306/ssm?serverTimezone=UTC
       username: root
       password: root
-      # h2数据源
-
-#      driver-class-name: org.h2.Driver
-#      url: jdbc:h2:~/ssm
-#      username: root
-#      password: root
-#      test-while-idle: false
-# 配置浏览器登录并访问h2服务器及其控制台
-#  h2:
-#    console:
-#      enabled: true
-#      path: /h2
-#      enabled: false #关闭热部署
-
-#jetcache:
-#  local:
-#    default:
-#      type: linkedhashmap
-#      keyConvertor: fastjson
-#  remote:
-#    default:
-#      type: redis
-#      host: localhost
-#      port: 6379
-#      password: root
-#      keyConvertor: fastjson
-#      valueEncode: java
-#      valueDecode: java
-#      poolconfig:
-#        maxTotal: 50
-
-j2cache:
-  config-location: j2cache.properties
+  #消息队列技术
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: order
+#  activemq:
+#    broker-url: tcp://localhost:61616
+#  rabbitmq:
+#    host: localhost
+#    port: 5672
+rocketmq:
+  name-server: localhost:9876
+  producer:
+    group: group_rocketmq
 
 mybatis-plus:
   configuration:
-    #map-underscore-to-camel-case: false #关闭自动驼峰映射
-    cache-enabled: false #关闭缓存
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #打印MP日志,上线时关闭该配置
-
   global-config:
     db-config:
       id-type: auto #全局默认主键类型
@@ -76,50 +41,6 @@ testcase:
     name: ${random.value}
     description: ${random.value}
 
-#memcached:
-#  servers: localhost:11211
-#  poolSize: 10
-#  opTimeout: 6000
-#servers:
-#  ipAddress: 192.168.1.10
-#  port: 80
-#  timeout: -1
-
 ---
-
-mybatis-plus:
-  mapper-locations: classpath*:com/cn/mapper/*.xml #指定mapper映射文件路径
-  type-aliases-package: com.cn.domain #扫描实体类别名包路径
-
-spring:
-
-  devtools:
-    restart: # 排除不参与热部署的目录和文件
-      exclude: static/**,public/**,config/application.yml
-  data:
-    mongodb:
-      uri: mongodb://localhost:27017/ssm #端口可以省略
-
-  mvc:  #指定jsp页面的前后缀
-    view:
-      suffix: .jsp
-      prefix: /pages/
-
-
-logging:  #logback日志输出到文件
-  logback:
-    rollingpolicy:
-      max-file-size: 1MB
-      file-name-pattern: server.%d{yyyy-MM-dd}.%i.log
-  file:
-    name: server.log #输出位置：C:\项目目录\server.log
-
-
-pagehelper: #mybatis分页助手
-  helper-dialect: mysql
-  reasonable: true
-  support-methods-arguments: true
-  params: count=countSql
-  page-size-zero: false
 
 

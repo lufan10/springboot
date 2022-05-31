@@ -14,7 +14,7 @@ import java.io.Serializable;
 @Component
 @ConfigurationProperties(prefix = "testcase.book")
 public class Book implements Serializable {
-    private int id;
+    private Integer id;
     private String type;
     private String name;
     private String description;
