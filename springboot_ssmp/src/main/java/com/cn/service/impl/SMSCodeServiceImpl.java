@@ -2,7 +2,7 @@ package com.cn.service.impl;
 import com.cn.domain.SMSCode;
 import com.cn.service.SMSCodeService;
 import com.cn.service.utils.CodeUtils;
-import net.oschina.j2cache.CacheChannel;
+//import net.oschina.j2cache.CacheChannel;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -12,22 +12,32 @@ public class SMSCodeServiceImpl implements SMSCodeService{
     @Resource
     private CodeUtils codeUtils;
 
-    //j2Cache缓存整合框架
-    @Resource
-    private CacheChannel cacheChannel;
-
     @Override
     public String sendCodeToSMS(String tele) {
-        String code = codeUtils.generator(tele);
-        cacheChannel.set("sms",tele,code);//开启缓存、创建sms缓存空间和加入数据进缓存空间
-        return code;
+        return null;
     }
 
     @Override
     public boolean checkCode(SMSCode smsCode) {
-        String code = cacheChannel.get("sms", smsCode.getTele()).asString();
-        return smsCode.getCode().equals(code);
+        return false;
     }
+
+    //j2Cache缓存整合框架
+//    @Resource
+//    private CacheChannel cacheChannel;
+//
+//    @Override
+//    public String sendCodeToSMS(String tele) {
+//        String code = codeUtils.generator(tele);
+//        cacheChannel.set("sms",tele,code);//开启缓存、创建sms缓存空间和加入数据进缓存空间
+//        return code;
+//    }
+//
+//    @Override
+//    public boolean checkCode(SMSCode smsCode) {
+//        String code = cacheChannel.get("sms", smsCode.getTele()).asString();
+//        return smsCode.getCode().equals(code);
+//    }
 
     //使用jetCache缓存技术创建缓存空间
 //    @CreateCache(name = "jetCache_",expire = 3600)

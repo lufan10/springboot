@@ -2,7 +2,11 @@ server:
   port: 80 #指定访问端口
 
 spring:
-#  cache:
+  mail:
+    host: smtp.qq.com
+    username: dijia4220@qq.com
+    password: fxqjrskeqpeyfcdd
+  #  cache:
 ##    type: ehcache # 可以变更缓存技术，springboot默认缓存技术是simple
 #    type: redis # 可以变更缓存技术，springboot默认缓存技术是simple
 #  redis: # redis数据源
@@ -19,6 +23,7 @@ spring:
       username: root
       password: root
       # h2数据源
+
 #      driver-class-name: org.h2.Driver
 #      url: jdbc:h2:~/ssm
 #      username: root
