@@ -1,6 +1,11 @@
 server:
   port: 80 #指定访问端口
 
+#servers:
+#  ipAddress: 192.168.1.10
+#  port: 80
+#  timeout: -1
+
 spring:
 #  mvc:  #指定jsp页面的前后缀
 #    view:
@@ -9,10 +14,27 @@ spring:
 
   datasource: #数据源连接参数
     druid:
-      driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/ssm?serverTimezone=UTC
+       # mysql数据源
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+#      url: jdbc:mysql://localhost:3306/ssm?serverTimezone=UTC
+#      username: root
+#      password: root
+      # h2数据源
+      driver-class-name: org.h2.Driver
+      url: jdbc:h2:~/ssm
       username: root
       password: root
+      test-while-idle: false
+  devtools:
+    restart: # 排除不参与热部署的目录和文件
+      exclude: static/**,public/**,config/application.yml
+      
+# 配置浏览器登录并访问h2服务器及其控制台
+#  h2:
+#    console:
+#      enabled: true
+#      path: /h2
+#      enabled: false #关闭热部署
 
 logging:  #logback日志输出到文件
   logback:
@@ -42,3 +64,12 @@ mybatis-plus:
     db-config:
       id-type: auto #全局默认主键类型
       #table-prefix: tb_ #表名前缀，数据库表名与实体类名不一致时采用
+
+
+#测试用例生成随机数据
+testcase:
+  book:
+#    id: ${random.int()}
+    type: ${random.value}
+    name: ${random.value}
+    description: ${random.value}

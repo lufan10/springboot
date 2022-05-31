@@ -18,7 +18,7 @@ public class BookController {
     }
 
     @PostMapping
-    public R save(@RequestBody Book book) throws Exception {
+    public R save(@RequestBody Book book){
         Boolean flag = bookservice.save(book);
         return new R(flag, flag ? "添加成功^_^" : "添加失败-_-!");
     }
@@ -35,7 +35,6 @@ public class BookController {
 
     @GetMapping("{id}")
     public R getById(@PathVariable Integer id) {
-
         return new R(true, bookservice.getById(id));
     }
     @GetMapping("{currentPage}/{pageSize}")
