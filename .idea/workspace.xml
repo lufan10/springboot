@@ -19,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature-v2" />
+        <entry key="$PROJECT_DIR$" value="feature-v3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,11 +34,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -64,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653968094595</updated>
-      <workItem from="1653968096747" duration="1612000" />
+      <workItem from="1653968096747" duration="1913000" />
     </task>
     <task id="LOCAL-00001" summary="打包&#10;配置高级&#10;多环境开发&#10;日志">
       <created>1653968925333</created>
@@ -94,7 +101,35 @@
       <option name="project" value="LOCAL" />
       <updated>1653969748874</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="定时任务与发送邮件">
+      <created>1653969788272</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653969788272</updated>
+    </task>
+    <task id="LOCAL-00006" summary="消息中间件">
+      <created>1653969952565</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653969952565</updated>
+    </task>
+    <task id="LOCAL-00007" summary="消息中间件">
+      <created>1653970040801</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653970040801</updated>
+    </task>
+    <task id="LOCAL-00008" summary="消息中间件">
+      <created>1653970053275</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1653970053275</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,17 +152,18 @@
     <MESSAGE value="热部署&#10;配置高级&#10;测试&#10;数据层解决方案" />
     <MESSAGE value="缓存技术" />
     <MESSAGE value="定时任务与发送邮件" />
-    <option name="LAST_COMMIT_MESSAGE" value="定时任务与发送邮件" />
+    <MESSAGE value="消息中间件" />
+    <option name="LAST_COMMIT_MESSAGE" value="消息中间件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="228" y="92" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1653968339860">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="228" y="92" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1366.728@0.0.1366.728" timestamp="1653968339860" />
-    <state x="292" y="111" key="Vcs.Push.Dialog.v2" timestamp="1653969760692">
+    <state x="292" y="111" key="Vcs.Push.Dialog.v2" timestamp="1653970063358">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="292" y="111" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1653969760692" />
+    <state x="292" y="111" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1653970063358" />
     <state x="110" y="0" key="new project wizard" timestamp="1653968256466">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
