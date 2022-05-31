@@ -1,0 +1,44 @@
+server:
+  port: 80 #指定访问端口
+
+spring:
+#  mvc:  #指定jsp页面的前后缀
+#    view:
+#      suffix: .jsp
+#      prefix: /pages/
+
+  datasource: #数据源连接参数
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/ssm?serverTimezone=UTC
+      username: root
+      password: root
+
+logging:  #logback日志输出到文件
+  logback:
+    rollingpolicy:
+      max-file-size: 1MB
+      file-name-pattern: server.%d{yyyy-MM-dd}.%i.log
+  file:
+    name: server.log #输出位置：C:\项目目录\server.log
+
+pagehelper: #mybatis分页助手
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql
+  page-size-zero: false
+
+mybatis-plus:
+#  mapper-locations: classpath*:com/cn/mapper/*.xml #指定mapper映射文件路径
+#  type-aliases-package: com.cn.domain #扫描实体类别名包路径
+
+  configuration:
+    #map-underscore-to-camel-case: false #关闭自动驼峰映射
+    cache-enabled: false #关闭缓存
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #打印MP日志,上线时关闭该配置
+
+  global-config:
+    db-config:
+      id-type: auto #全局默认主键类型
+      #table-prefix: tb_ #表名前缀，数据库表名与实体类名不一致时采用
