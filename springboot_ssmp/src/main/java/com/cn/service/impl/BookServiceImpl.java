@@ -6,13 +6,22 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.cn.domain.Book;
 import com.cn.mapper.BookMapper;
 import com.cn.service.BookService;
+import io.micrometer.core.instrument.Counter;
+import io.micrometer.core.instrument.MeterRegistry;
 import org.apache.logging.log4j.util.Strings;
 import org.springframework.stereotype.Service;
+
 
 import javax.annotation.Resource;
 import java.util.List;
 @Service
 public class BookServiceImpl implements BookService {
+    private Counter counter;
+
+    public BookServiceImpl(MeterRegistry meterRegistry) {
+        counter=meterRegistry.counter("用户付费操作次数");
+    }
+
     @Resource
     private BookMapper bookMapper;
     @Override
@@ -22,6 +31,7 @@ public class BookServiceImpl implements BookService {
 
     @Override
     public Boolean delete(Integer id) {
+        counter.increment();
         return bookMapper.deleteById(id)>0;
     }
 
