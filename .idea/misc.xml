@@ -10,6 +10,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/springboot_ssmp/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_admin/pom.xml" />
       </list>
     </option>
   </component>

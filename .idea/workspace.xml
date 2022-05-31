@@ -166,10 +166,17 @@
       <recent name="C:\SpringBoot\springboot_ssmp" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.SSMPApplication">
     <configuration name="SSMPApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot_ssmp" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.SSMPApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.SpringbootAdminApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
