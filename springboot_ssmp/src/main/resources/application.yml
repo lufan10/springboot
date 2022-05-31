@@ -2,17 +2,37 @@ server:
   port: 80 #指定访问端口
 
 spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8080 #服务端监控地址
+
 #  mvc:  #指定jsp页面的前后缀
 #    view:
 #      suffix: .jsp
 #      prefix: /pages/
-
   datasource: #数据源连接参数
     druid:
       driver-class-name: com.mysql.cj.jdbc.Driver
       url: jdbc:mysql://localhost:3306/ssm?serverTimezone=UTC
       username: root
       password: root
+
+# 监控管理项
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+info:
+  appName: @project.artifactId@
+  version: @project.version@
+  comany: 图书管理系统
+  author: lufan
 
 logging:  #logback日志输出到文件
   logback:
