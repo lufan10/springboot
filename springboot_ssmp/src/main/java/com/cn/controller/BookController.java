@@ -1,11 +1,18 @@
 package com.cn.controller;
+
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.cn.controller.utils.R;
 import com.cn.domain.Book;
 import com.cn.service.BookService;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.web.bind.annotation.*;
+
 import javax.annotation.Resource;
 
+@NoArgsConstructor
+@Data
 @RestController
 @RequestMapping("/books")
 public class BookController {
@@ -15,6 +22,7 @@ public class BookController {
     @GetMapping
     public R getAll() {
         return new R(true, bookservice.getAll());
+
     }
 
     @PostMapping

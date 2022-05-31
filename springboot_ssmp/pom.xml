@@ -21,6 +21,17 @@
 		<maven.compiler.target>12</maven.compiler.target>
 	</properties>
 	<dependencies>
+		<dependency>
+			<!--实现JavaBean与json间的转换-->
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.47</version>
+		</dependency>
+		<dependency>
+			<!--ES高级客户端-->
+			<groupId>org.elasticsearch.client</groupId>
+			<artifactId>elasticsearch-rest-high-level-client</artifactId>
+		</dependency>
 		<!--热部署工具-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -44,16 +55,24 @@
 
 		<!-- pojo实体层-->
 		<dependency>
+			<!--自动生成对应JavaBean的set/get、toString方法-->
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 		</dependency>
 
 		<!--dao持久层、service层-->
 		<dependency>
-			<!--数据库驱动-->
+			<!--mysql数据库驱动-->
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
+		<dependency>
+			<!--springboot整合druid连接池-->
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid-spring-boot-starter</artifactId>
+			<version>1.2.3</version>
+		</dependency>
+
 		<dependency>
 			<!--h2内存级数据库-->
 			<groupId>com.h2database</groupId>
@@ -64,11 +83,54 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
+
 		<dependency>
-			<!--springboot整合druid连接池-->
-			<groupId>com.alibaba</groupId>
-			<artifactId>druid-spring-boot-starter</artifactId>
-			<version>1.2.3</version>
+			<!--redis数据库,同时包含redis缓存技术-->
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
+		</dependency>
+		<dependency>
+			<!--操作redis数据库的客户端jedis-->
+			<groupId>redis.clients</groupId>
+			<artifactId>jedis</artifactId>
+		</dependency>
+		<dependency>
+			<!--mongodb数据库-->
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
+		</dependency>
+		<dependency>
+			<!--springboot默认的Simple缓存技术-->
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-cache</artifactId>
+		</dependency>
+		<dependency>
+			<!--ehcache缓存技术-->
+			<groupId>net.sf.ehcache</groupId>
+			<artifactId>ehcache</artifactId>
+		</dependency>
+		<dependency>
+			<!--memcached缓存技术的客户端xmemcached-->
+			<groupId>com.googlecode.xmemcached</groupId>
+			<artifactId>xmemcached</artifactId>
+			<version>2.4.7</version>
+		</dependency>
+<!--		<dependency>-->
+<!--			&lt;!&ndash;jetcache缓存技术：实现本地缓存和远程缓存并存，同时包含redis缓存技术&ndash;&gt;-->
+<!--			<groupId>com.alicp.jetcache</groupId>-->
+<!--			<artifactId>jetcache-starter-redis</artifactId>-->
+<!--			<version>2.6.2</version>-->
+<!--		</dependency>-->
+		<!--j2cache缓存整合框架：包含了ehcache、xmemcached、redis缓存技术-->
+		<dependency>
+			<groupId>net.oschina.j2cache</groupId>
+			<artifactId>j2cache-core</artifactId>
+			<version>2.8.4-release</version>
+		</dependency>
+		<dependency>
+			<groupId>net.oschina.j2cache</groupId>
+			<artifactId>j2cache-spring-boot2-starter</artifactId>
+			<version>2.8.0-release</version>
 		</dependency>
 		<dependency>
 			<!--springboot整合mybatis-->

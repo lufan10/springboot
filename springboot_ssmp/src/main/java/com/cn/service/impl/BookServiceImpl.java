@@ -7,6 +7,7 @@ import com.cn.domain.Book;
 import com.cn.mapper.BookMapper;
 import com.cn.service.BookService;
 import org.apache.logging.log4j.util.Strings;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -15,25 +16,29 @@ import java.util.List;
 public class BookServiceImpl implements BookService {
     @Resource
     private BookMapper bookMapper;
+
+    @Override
+//    @Cacheable(value = "cacheSpace",key = "#id") //springboot默认缓存技术
+//    @Cached(name = "book_",key = "#id",expire = 3600,cacheType = CacheType.BOTH) //jetcach缓存技术
+//    @CacheRefresh(refresh = 3600)
+    public Book getById(Integer id) {
+        return bookMapper.selectById(id);
+    }
     @Override
     public Boolean save(Book book) {
         return bookMapper.insert(book)>0;
     }
 
     @Override
+//    @CacheInvalidate(name = "book_",key = "#id")
     public Boolean delete(Integer id) {
         return bookMapper.deleteById(id)>0;
     }
 
     @Override
+//    @CacheUpdate(name="book_",key = "#book.id",value = "#book")
     public Boolean updateById(Book book) {
         return bookMapper.updateById(book)>0;
-    }
-
-    @Override
-    public Book getById(Integer id) {
-
-        return bookMapper.selectById(id);
     }
 
     @Override

@@ -1,0 +1,33 @@
+//查询单个mysql数据
+GET http://localhost/books/45
+
+###
+//查询所有mysql数据
+GET http://localhost/books/
+
+###
+//分页查询
+GET http://localhost/books/1/6
+
+###
+//添加数据到mysql数据库中
+POST http://localhost/books/
+Content-Type: application/json
+
+{"type":"spring",     "name":"spring2",     "description":"spring3"}
+
+###
+//添加数据到mysql数据库中
+PUT http://localhost/books/
+Content-Type: application/json
+{
+"id":"43"
+"type":"spring",
+"name":"spring2",
+"description":"spring3"
+}
+
+###
+//根据id删除数据
+DELETE http://localhost/books/118
+Accept: application/json

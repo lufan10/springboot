@@ -1,0 +1,14 @@
+//查询单个mysql数据
+GET http://localhost/sms?tele=18882311045
+Accept: application/json
+
+###
+//添加数据到mysql数据库中
+POST http://localhost/sms/
+Content-Type: application/json
+
+{"tele": "18882311045","code": "784739"}
+
+###
+
+
