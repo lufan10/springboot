@@ -10,12 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d4b7dd1-a642-43da-a125-b4a90798c8d5" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/javaee.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_ssmp/src/main/resources/static/pages/Thymeleaf.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Checkout__at_2022_6_3_20_56___.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Checkout__at_2022_6_3_20_56___.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6d4b7dd1-a642-43da-a125-b4a90798c8d5" name="默认" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="feature-v5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -149,10 +144,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1058" height="290" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1654261453271" />
-    <state x="-8" y="2" width="862" height="679" key="SettingsEditor" timestamp="1654261758917">
+    <state x="122" y="2" width="862" height="679" key="SettingsEditor" timestamp="1654262903912">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="-8" y="2" width="862" height="679" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1654261758917" />
+    <state x="122" y="2" width="862" height="679" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1654262903912" />
     <state x="292" y="111" key="Vcs.Push.Dialog.v2" timestamp="1653968975975">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
