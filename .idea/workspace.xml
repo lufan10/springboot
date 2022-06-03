@@ -48,7 +48,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -185,10 +185,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1058" height="290" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1654260549619" />
-    <state x="149" y="0" key="SettingsEditor" timestamp="1654260586051">
+    <state x="149" y="0" key="SettingsEditor" timestamp="1654262643720">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="149" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1654260586051" />
+    <state x="149" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1654262643720" />
     <state x="292" y="111" key="Vcs.Push.Dialog.v2" timestamp="1653970063358">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
