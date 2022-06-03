@@ -42,6 +42,10 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -49,7 +53,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -93,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654262942061</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="springboot整合Thymeleaf">
+      <created>1654263053427</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654263053427</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,46 +133,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="228" y="92" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1366.728@0.0.1366.728" timestamp="1653968339860" />
-    <state width="1058" height="220" key="GridCell.Tab.0.bottom" timestamp="1654262990968">
+    <state width="1058" height="283" key="GridCell.Tab.0.bottom" timestamp="1654263045039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1058" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1654262990968" />
-    <state width="1058" height="220" key="GridCell.Tab.0.center" timestamp="1654262990967">
+    <state width="1058" height="283" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1654263045039" />
+    <state width="1058" height="283" key="GridCell.Tab.0.center" timestamp="1654263045039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1058" height="220" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1654262990967" />
-    <state width="1058" height="220" key="GridCell.Tab.0.left" timestamp="1654262990967">
+    <state width="1058" height="283" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1654263045039" />
+    <state width="1058" height="283" key="GridCell.Tab.0.left" timestamp="1654263045038">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1058" height="220" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1654262990967" />
-    <state width="1058" height="220" key="GridCell.Tab.0.right" timestamp="1654262990967">
+    <state width="1058" height="283" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1654263045038" />
+    <state width="1058" height="283" key="GridCell.Tab.0.right" timestamp="1654263045039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1058" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1654262990967" />
-    <state width="1058" height="220" key="GridCell.Tab.1.bottom" timestamp="1654262990969">
+    <state width="1058" height="283" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1654263045039" />
+    <state width="1058" height="283" key="GridCell.Tab.1.bottom" timestamp="1654263045039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1058" height="220" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1654262990969" />
-    <state width="1058" height="220" key="GridCell.Tab.1.center" timestamp="1654262990968">
+    <state width="1058" height="283" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1654263045039" />
+    <state width="1058" height="283" key="GridCell.Tab.1.center" timestamp="1654263045039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1058" height="220" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1654262990968" />
-    <state width="1058" height="220" key="GridCell.Tab.1.left" timestamp="1654262990968">
+    <state width="1058" height="283" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1654263045039" />
+    <state width="1058" height="283" key="GridCell.Tab.1.left" timestamp="1654263045039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1058" height="220" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1654262990968" />
-    <state width="1058" height="220" key="GridCell.Tab.1.right" timestamp="1654262990968">
+    <state width="1058" height="283" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1654263045039" />
+    <state width="1058" height="283" key="GridCell.Tab.1.right" timestamp="1654263045039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1058" height="220" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1654262990968" />
-    <state x="122" y="2" width="862" height="679" key="SettingsEditor" timestamp="1654263026759">
+    <state width="1058" height="283" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1654263045039" />
+    <state x="122" y="2" width="862" height="679" key="SettingsEditor" timestamp="1654263124390">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="122" y="2" width="862" height="679" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1654263026759" />
-    <state x="292" y="111" key="Vcs.Push.Dialog.v2" timestamp="1654263002142">
+    <state x="122" y="2" width="862" height="679" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1654263124390" />
+    <state x="292" y="111" key="Vcs.Push.Dialog.v2" timestamp="1654263058528">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="292" y="111" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1654263002142" />
+    <state x="292" y="111" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1654263058528" />
     <state x="110" y="0" key="new project wizard" timestamp="1653968256466">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
