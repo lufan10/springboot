@@ -40,12 +40,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot_ssmp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -145,6 +149,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -160,6 +165,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="228" y="92" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1366.728@0.0.1366.728" timestamp="1653968339860" />
+    <state x="449" y="104" key="FileChooserDialogImpl" timestamp="1654260581357">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="449" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1654260581357" />
+    <state width="1058" height="290" key="GridCell.Tab.0.bottom" timestamp="1654260549619">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1058" height="290" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1654260549619" />
+    <state width="1058" height="290" key="GridCell.Tab.0.center" timestamp="1654260549619">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1058" height="290" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1654260549619" />
+    <state width="1058" height="290" key="GridCell.Tab.0.left" timestamp="1654260549618">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1058" height="290" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1654260549618" />
+    <state width="1058" height="290" key="GridCell.Tab.0.right" timestamp="1654260549619">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1058" height="290" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1654260549619" />
+    <state x="149" y="0" key="SettingsEditor" timestamp="1654260586051">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="149" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1654260586051" />
     <state x="292" y="111" key="Vcs.Push.Dialog.v2" timestamp="1653970063358">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
