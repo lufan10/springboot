@@ -26,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="feature-v4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,6 +52,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15527344" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -192,6 +195,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1058" height="382" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1653971817738" />
+    <state x="198" y="0" key="SettingsEditor" timestamp="1654262813342">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="198" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1654262813342" />
     <state x="288" y="110" key="Vcs.Push.Dialog.v2" timestamp="1653975654858">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
