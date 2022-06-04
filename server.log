@@ -1,0 +1,45 @@
+2022-06-04 10:53:44.037  INFO 9100 --- [main] com.cn.SSMPApplication                   : Starting SSMPApplication using Java 12.0.1 on DESKTOP-RCCHG93 with PID 9100 (C:\SpringBoot\springboot_ssmp\target\classes started by lufan in C:\SpringBoot)
+2022-06-04 10:53:44.052  INFO 9100 --- [main] com.cn.SSMPApplication                   : No active profile set, falling back to default profiles: default
+2022-06-04 10:53:46.348  INFO 9100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2022-06-04 10:53:46.364  INFO 9100 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-04 10:53:46.364  INFO 9100 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-06-04 10:53:46.958  INFO 9100 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-06-04 10:53:46.973  INFO 9100 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-04 10:53:46.973  INFO 9100 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2733 ms
+2022-06-04 10:53:47.239  INFO 9100 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-06-04 10:53:47.473  INFO 9100 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-06-04 10:53:49.051  INFO 9100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2022-06-04 10:53:49.066  INFO 9100 --- [main] com.cn.SSMPApplication                   : Started SSMPApplication in 6.352 seconds (JVM running for 9.008)
+2022-06-04 10:54:08.230  INFO 9100 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-04 10:54:08.232  INFO 9100 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-04 10:54:08.234  INFO 9100 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-06-04 10:57:36.586  INFO 11104 --- [main] com.cn.SSMPApplication                   : Starting SSMPApplication using Java 12.0.1 on DESKTOP-RCCHG93 with PID 11104 (C:\SpringBoot\springboot_ssmp\target\classes started by lufan in C:\SpringBoot)
+2022-06-04 10:57:36.586  INFO 11104 --- [main] com.cn.SSMPApplication                   : No active profile set, falling back to default profiles: default
+2022-06-04 10:57:38.929  INFO 11104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2022-06-04 10:57:38.945  INFO 11104 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-04 10:57:38.945  INFO 11104 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-06-04 10:57:39.460  INFO 11104 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-06-04 10:57:39.476  INFO 11104 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-04 10:57:39.476  INFO 11104 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2796 ms
+2022-06-04 10:57:39.819  INFO 11104 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-06-04 10:57:40.007  INFO 11104 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-06-04 10:57:41.444  INFO 11104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2022-06-04 10:57:41.475  INFO 11104 --- [main] com.cn.SSMPApplication                   : Started SSMPApplication in 5.803 seconds (JVM running for 7.668)
+2022-06-04 10:57:48.764  INFO 11104 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-04 10:57:48.766  INFO 11104 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-04 10:57:48.768  INFO 11104 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-04 11:31:15.933  INFO 2368 --- [main] com.cn.SSMPApplication                   : Starting SSMPApplication using Java 12.0.1 on DESKTOP-RCCHG93 with PID 2368 (C:\SpringBoot\springboot_ssmp\target\classes started by lufan in C:\SpringBoot)
+2022-06-04 11:31:15.948  INFO 2368 --- [main] com.cn.SSMPApplication                   : No active profile set, falling back to default profiles: default
+2022-06-04 11:31:18.869  INFO 2368 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2022-06-04 11:31:18.884  INFO 2368 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-04 11:31:18.884  INFO 2368 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-06-04 11:31:19.415  INFO 2368 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-06-04 11:31:19.447  INFO 2368 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-04 11:31:19.447  INFO 2368 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3390 ms
+2022-06-04 11:31:19.681  INFO 2368 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-06-04 11:31:19.884  INFO 2368 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-06-04 11:31:21.305  INFO 2368 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2022-06-04 11:31:21.337  INFO 2368 --- [main] com.cn.SSMPApplication                   : Started SSMPApplication in 6.406 seconds (JVM running for 8.417)
+2022-06-04 11:31:30.590  INFO 2368 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-04 11:31:30.591  INFO 2368 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-04 11:31:30.593  INFO 2368 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms

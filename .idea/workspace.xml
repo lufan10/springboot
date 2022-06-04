@@ -10,7 +10,27 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d4b7dd1-a642-43da-a125-b4a90798c8d5" name="默认" comment="" />
+    <list default="true" id="6d4b7dd1-a642-43da-a125-b4a90798c8d5" name="默认" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.2022-06-03.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_ssmp/server.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_ssmp/src/main/java/com/cn/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_ssmp/src/main/resources/templates/commons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/JPA_1_0_JPA_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_ssmp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_ssmp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_ssmp/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_ssmp/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_ssmp/src/main/resources/static/pages/Thymeleaf.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_ssmp/src/main/resources/templates/Thymeleaf.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +39,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="HTML File" />
       </list>
     </option>
@@ -51,25 +72,42 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\SpringBoot\springboot_ssmp\src\main\resources\template" />
       <recent name="C:\SpringBoot\springboot_ssmp" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="SSMPApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="springboot_ssmp" />
+    <configuration name="SSMPApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sprngboot_ssmp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.SSMPApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SSMPApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -82,6 +120,9 @@
       <option name="presentableId" value="Default" />
       <updated>1653968094595</updated>
       <workItem from="1653968096747" duration="1278000" />
+      <workItem from="1654264153916" duration="362000" />
+      <workItem from="1654264550739" duration="4384000" />
+      <workItem from="1654307324949" duration="4052000" />
     </task>
     <task id="LOCAL-00001" summary="打包&#10;配置高级&#10;多环境开发&#10;日志">
       <created>1653968925333</created>
@@ -104,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654263053427</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="springboot整合Thymeleaf">
+      <created>1654263130024</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654263130024</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,50 +177,62 @@
     <option name="LAST_COMMIT_MESSAGE" value="springboot整合Thymeleaf" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="228" y="92" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1653968339860">
+    <state x="104" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1654265010122">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="228" y="92" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1366.728@0.0.1366.728" timestamp="1653968339860" />
-    <state width="1058" height="283" key="GridCell.Tab.0.bottom" timestamp="1654263045039">
+    <state x="104" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1654265010122" />
+    <state x="228" y="92" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1654313229959">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1058" height="283" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1654263045039" />
-    <state width="1058" height="283" key="GridCell.Tab.0.center" timestamp="1654263045039">
+    <state x="228" y="92" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1366.728@0.0.1366.728" timestamp="1654313229959" />
+    <state x="333" y="82" key="FileChooserDialogImpl" timestamp="1654264529902">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1058" height="283" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1654263045039" />
-    <state width="1058" height="283" key="GridCell.Tab.0.left" timestamp="1654263045038">
+    <state x="333" y="82" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1654264529902" />
+    <state width="1058" height="196" key="GridCell.Tab.0.bottom" timestamp="1654313482991">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1058" height="283" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1654263045038" />
-    <state width="1058" height="283" key="GridCell.Tab.0.right" timestamp="1654263045039">
+    <state width="1058" height="196" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1654313482991" />
+    <state width="1058" height="196" key="GridCell.Tab.0.center" timestamp="1654313482991">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1058" height="283" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1654263045039" />
-    <state width="1058" height="283" key="GridCell.Tab.1.bottom" timestamp="1654263045039">
+    <state width="1058" height="196" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1654313482991" />
+    <state width="1058" height="196" key="GridCell.Tab.0.left" timestamp="1654313482990">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1058" height="283" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1654263045039" />
-    <state width="1058" height="283" key="GridCell.Tab.1.center" timestamp="1654263045039">
+    <state width="1058" height="196" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1654313482990" />
+    <state width="1058" height="196" key="GridCell.Tab.0.right" timestamp="1654313482991">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1058" height="283" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1654263045039" />
-    <state width="1058" height="283" key="GridCell.Tab.1.left" timestamp="1654263045039">
+    <state width="1058" height="196" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1654313482991" />
+    <state width="1058" height="196" key="GridCell.Tab.1.bottom" timestamp="1654313482992">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1058" height="283" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1654263045039" />
-    <state width="1058" height="283" key="GridCell.Tab.1.right" timestamp="1654263045039">
+    <state width="1058" height="196" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1654313482992" />
+    <state width="1058" height="196" key="GridCell.Tab.1.center" timestamp="1654313482991">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1058" height="283" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1654263045039" />
-    <state x="122" y="2" width="862" height="679" key="SettingsEditor" timestamp="1654263124390">
+    <state width="1058" height="196" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1654313482991" />
+    <state width="1058" height="196" key="GridCell.Tab.1.left" timestamp="1654313482991">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="122" y="2" width="862" height="679" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1654263124390" />
-    <state x="292" y="111" key="Vcs.Push.Dialog.v2" timestamp="1654263058528">
+    <state width="1058" height="196" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1654313482991" />
+    <state width="1058" height="196" key="GridCell.Tab.1.right" timestamp="1654313482991">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="292" y="111" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1654263058528" />
+    <state width="1058" height="196" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1654313482991" />
+    <state x="193" y="44" key="NewModule_or_Project.wizard" timestamp="1654264488996">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="193" y="44" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1654264488996" />
+    <state x="122" y="2" width="916" height="708" key="SettingsEditor" timestamp="1654265601187">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="122" y="2" width="916" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1654265601187" />
+    <state x="292" y="111" key="Vcs.Push.Dialog.v2" timestamp="1654263136520">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="292" y="111" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1654263136520" />
     <state x="110" y="0" key="new project wizard" timestamp="1653968256466">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

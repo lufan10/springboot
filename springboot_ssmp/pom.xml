@@ -83,6 +83,11 @@
 			<artifactId>pagehelper-spring-boot-starter</artifactId>
 			<version>1.4.2</version>
 		</dependency>
+		<!-- thymeleaf模板依赖 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
