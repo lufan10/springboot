@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf语法</title>
+</head>
+<body>
+<!--th:text 为 Thymeleaf 属性，用于在展示文本-->
+<!--<h2 th:text="${name}"></h2>-->
+<h1 th:text="欢迎您来到Thymeleaf">欢迎您访问静态页面 HTML</h1>
+<div th:insert="commons::fragment-name"></div>
+<div th:insert="commons::#fragment-id"></div>
+<script  th:inline="javascript">
+    const name = [[${name}]];
+    alert(name)
+</script>
+</body>
+</html>
